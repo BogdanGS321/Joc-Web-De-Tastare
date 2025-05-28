@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" href = "{{url_for('static', filename = 'CSS/Play.css')}}">
+    </head>
+
+    <body>
+        <div class = "Buttonbar">
+            <button class = "Play" onclick="play()">Play</button>
+            <h1 id = "Username" class = "Username"></h1>
+        </div>
+
+        <div class = "container">
+            <h1 class= "Numaratoare" id = "Numaratoare"></h1>
+            <div class = "containerCitat"> <p class = "Citat" id = "Citat"></p> </div>
+            <textarea class = "Input" id = "Input"></textarea>
+            <p class = "Cronometru" id = "Cronometru"></p>
+            <p class = "Rezultate" id = "Rezultate"></p>
+        </div>
+    </body>
+
+    <script src = "{{url_for('static', filename = 'JS/Play.js')}}"></script> 
+</html>

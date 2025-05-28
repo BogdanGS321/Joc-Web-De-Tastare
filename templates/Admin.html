@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" href = "{{url_for('static', filename = 'CSS/Admin.css')}}">
+    </head>
+
+    <body>
+        <div class = "Buttonbar">
+            <button class = "Play" onclick="play()">Play</button>
+            <h1 class = "Username"></h1>
+        </div>
+
+        <div class = "container">
+            <input id = "search" placeholder="Cauta dupa username">
+            <button id = "searchButton" onclick = "search()">Search</button>
+            <input id = "NewUsername" disabled = true placeholder = "Username nou">
+            <input  id = "NewPassword" disabled = true placeholder = "Parola noua">
+            <button  id = "Save" disabled = true onclick = "save()">Save</button>
+            <button class = "deleteButton" id = "deleteButton" disabled = true onclick = "erase()">Delete</button>
+        </div>
+    </body>
+
+    <script src = "{{url_for('static', filename = 'JS/Admin.js')}}"></script> 
+</html>

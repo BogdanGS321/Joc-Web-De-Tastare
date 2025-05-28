@@ -1,0 +1,39 @@
+body {
+    background-image: url(Background.webp);
+    background-repeat: no-repeat;
+}
+
+.Buttonbar {
+    background: rgb(185, 185, 189);
+    display: grid;
+    grid-template-columns: 10% 10% 80%;
+    column-gap: 5px;
+}
+
+.container {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.Play {
+    justify-self: end;
+    grid-column: 1;
+}
+
+.Stats {
+    justify-self: left;
+    grid-column: 2;
+}
+
+.Username {
+    position: absolute;
+    right: 75px;
+    top: -3px;
+    font-size:16px;
+}
+
+.DeleteButton {
+    position: absolute;
+    right: 50px;
+}

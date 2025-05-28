@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static', filename = 'CSS/SignIn.css')}}">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="signIn"> Sign in </h1>
+            <input class="User" placeholder="Username">
+            <input class="Pass" type="password" placeholder="Password">
+            <button class = "SubmitButton" type ="submit" onclick = "submit()">
+                Submit
+            </button>
+            
+            <a class="CreateAcc" href="Signup.html">
+                <button class="CreateAcc"> Create account </button>
+            </a>
+            
+        </div>
+    </body>
+    <script src = "{{url_for('static', filename = 'JS/SignIn.js')}}"></script>
+</html>

@@ -1,0 +1,117 @@
+
+body {  
+    background-image: url(Background.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+::placeholder {
+    color: #C1C1C1;
+    font-family: Khand;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+button {
+    color: #C1C1C1;
+    font-family: Khand;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.container {
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 489px;
+    height: 636px;
+    background: rgb(255, 255, 255);
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.signUp {
+    position: absolute;
+    top: 10%;
+    grid-row: 1;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.User {
+    position: absolute;
+    top: -20px;
+    grid-row: 2;
+    width: 389px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border-width: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#F0F0F0;
+}
+
+.Pass {
+    position: absolute;
+    top: 45px;
+    grid-row: 2;
+    width: 389px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border-width: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#F0F0F0;
+}
+
+.Pass2 {
+    position: absolute;
+    top: 110px;
+    grid-row: 2;
+    width: 389px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border-width: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#F0F0F0;
+}
+
+
+.SubmitButton {
+    position:absolute;
+    top:-5%;
+    font-size: 25px;
+    grid-row: 4;    
+}
+
+
+.CantSign {
+    grid-row: 5;
+    border-width: 0px;
+}
+
+.CreateAcc{
+    position: absolute;
+    top: 15%;
+    left: 42.8%;
+    grid-row: 5;
+    border-width: 0px;
+    white-space: nowrap;
+}
